@@ -1,8 +1,14 @@
-# Keynote
+# Party
 
-Keynote is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+> landing page for my leaving party.
 
-## Getting started
+Using Keynote, a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+
+## TODO
+
+- customise Logo
+
+## Dev
 
 To get started with this template, first install the npm dependencies:
 
@@ -18,18 +24,18 @@ npm run dev
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Customizing
+## Content
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+https://sites.psu.edu/boehlerpassion2/2017/05/04/final-thoughts/
+https://www.youtube.com/watch?v=xGytDsqkQY8
+Closing time, every new beginning  
+Comes from some other beginning’s end, yeah  
+“Closing Time”, Semisonic
 
-## License
+"Scoring and fishing are comparable. In both cases, you must have patience and wait for the right moment to strike power with the utmost coolness."
+    Miroslav Klose
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+> I deeply respect people who have the courage to quit when they feel they have done what they wanted to do, expressed what they wanted to express, created what they wanted to create…quitting is rare. When people find something that "works" they usually keep producing content ad nauseam…We should celebrate more people who [quit]. It's not even quitting. It's called being done with something. And that's a good thing.
+> https://blog.jim-nielsen.com/2023/art-of-knowing-when-to-quit/
 
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+Seinfeld: https://www.youtube.com/watch?v=L0TE_xXjp-0&t=591s

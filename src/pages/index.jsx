@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DeceptiConf - A community-driven design conference</title>
+        <title>KlosingTime - Louis Guitton</title>
         <meta
           name="description"
-          content="At DeceptiConf you’ll learn about the latest dark patterns being developed to trick even the smartest visitors, and you’ll learn how to deploy them without ever being detected."
+          content="KlosingTime is the leaving party organised after 4.5 years of work at OneFootball."
         />
       </Head>
       <Header />
@@ -24,7 +24,6 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
-        <Newsletter />
       </main>
       <Footer />
     </>
