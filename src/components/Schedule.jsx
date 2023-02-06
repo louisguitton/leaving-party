@@ -47,7 +47,7 @@ const schedule = [
     timeSlots: [
       {
         name: 'Party',
-        description: 'The club is ours',
+        description: 'The club is',
         start: '00:00',
         end: '04:00',
       },
@@ -59,7 +59,7 @@ const schedule = [
       },
       {
         name: 'Coma',
-        description: 'That was fun',
+        description: 'Well, that was fun',
         start: '04:15',
         end: '22:00',
       },
