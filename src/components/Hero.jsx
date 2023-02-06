@@ -23,35 +23,58 @@ export function Hero() {
       <Container className="relative">
         <div className="max-w-2xl mx-auto lg:max-w-4xl lg:px-12">
           <h1 className="text-5xl font-bold tracking-tighter text-blue-600 font-display sm:text-7xl">
-            <span className="sr-only">KlosingTime - </span>A leaving party, OneFootball style.
+            <span className="sr-only">KlosingTime - </span>A leaving party,
+            OneFootball style.
           </h1>
           <div className="mt-6 space-y-6 text-2xl tracking-tight text-blue-900 font-display">
             <p>
-            Closing time, every new beginning<br/>
-            Comes from some other beginning&apos;s end, yeah<br/>
-            <a href="https://www.youtube.com/watch?v=xGytDsqkQY8" target="_blank" rel="noopener noreferrer">“Closing Time”, Semisonic</a>
+              Closing time, every new beginning
+              <br />
+              Comes from some other beginning&apos;s end, yeah
+              <br />
+              <a
+                href="https://www.youtube.com/watch?v=xGytDsqkQY8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                “Closing Time”, Semisonic
+              </a>
             </p>
             <p>
-              At KlosingTime, Semisonic and <a href="https://www.jenzi-blog.de/weltmeisterlich-mit-dem-richtigen-hobby/" target="_blank" rel="noopener noreferrer">Miroslav Klose&apos;s fans</a> alike will meet.
-              We&apos;ll look back at years of summer camps, morning footys and weeklys together.
-              We&apos;ll reminisce Data, tagging, and Hatttricks memories.
-              Most importantly, we&apos;ll have a lot of fun and we&apos;ll party together in style.
+              At KlosingTime, Semisonic and{' '}
+              <a
+                href="https://www.jenzi-blog.de/weltmeisterlich-mit-dem-richtigen-hobby/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Miroslav Klose&apos;s fans
+              </a>{' '}
+              alike will meet. We&apos;ll look back at years of summer camps,
+              morning footys and weeklys together. We&apos;ll reminisce Data,
+              tagging, and Hatttricks memories. Most importantly, we&apos;ll
+              have a lot of fun and we&apos;ll party together in style.
             </p>
           </div>
-          <Button href="#" className="w-full mt-10 sm:hidden">
+          <Button href="https://forms.gle/4CokoeZTNPrVzUwq5" className="w-full mt-10 sm:hidden">
             Get on the guest list
           </Button>
           <dl className="grid grid-cols-2 mt-10 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['DJs', '5'],
               ['People Attending', '52'],
-              ['Venue', '131 BAR', "https://goo.gl/maps/zk6bvK3ivQZSWu596"],
+              ['Venue', '131 BAR', 'https://goo.gl/maps/zk6bvK3ivQZSWu596'],
               ['Location', 'Berlin'],
             ].map(([name, value, href]) => (
               <div key={name}>
                 <dt className="font-mono text-sm text-blue-600">{name}</dt>
                 <dd className="mt-0.5 text-2xl font-semibold tracking-tight text-blue-900">
-                  {href ? <a href={href} target="_blank" rel="noopener noreferrer">{value}</a>: value}
+                  {href ? (
+                    <a href={href} target="_blank" rel="noopener noreferrer">
+                      {value}
+                    </a>
+                  ) : (
+                    value
+                  )}
                 </dd>
               </div>
             ))}

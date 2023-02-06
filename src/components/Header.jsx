@@ -8,19 +8,25 @@ export function Header() {
     <header className="relative z-50 pb-11 lg:pt-11">
       <Container className="flex flex-wrap items-center justify-center sm:justify-between lg:flex-nowrap">
         <div className="mt-10 lg:mt-0 lg:grow lg:basis-0">
-          <Logo className="h-12 w-auto text-slate-900" />
+          <Logo className="w-auto h-12 text-slate-900" />
         </div>
-        <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-blue-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
-          <div className="mx-auto flex items-center gap-4 px-4">
+        <div className="flex flex-auto order-first py-4 -mx-4 overflow-x-auto font-mono text-sm text-blue-600 border-b basis-full whitespace-nowrap border-blue-600/10 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
+          <div className="flex items-center gap-4 px-4 mx-auto">
             <p>
               <time dateTime="2023-03-10">March 10th, 2023</time>
             </p>
             <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <a href="https://goo.gl/maps/zk6bvK3ivQZSWu596" target="_blank" rel="noopener noreferrer"><p>Berlin, Germany</p></a>
+            <a
+              href="https://goo.gl/maps/zk6bvK3ivQZSWu596"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>Berlin, Germany</p>
+            </a>
           </div>
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-          <Button href="#">Get on the guest list</Button>
+          <Button href="https://forms.gle/4CokoeZTNPrVzUwq5">Get on the guest list</Button>
         </div>
       </Container>
     </header>
