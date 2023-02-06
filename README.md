@@ -26,12 +26,6 @@ Finally, open [http://localhost:3000](http://localhost:3000) in your browser to 
 
 ## Content
 
-https://sites.psu.edu/boehlerpassion2/2017/05/04/final-thoughts/
-https://www.youtube.com/watch?v=xGytDsqkQY8
-Closing time, every new beginning  
-Comes from some other beginning’s end, yeah  
-“Closing Time”, Semisonic
-
 "Scoring and fishing are comparable. In both cases, you must have patience and wait for the right moment to strike power with the utmost coolness."
     Miroslav Klose
 

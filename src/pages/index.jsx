@@ -3,10 +3,10 @@ import Head from 'next/head'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
-import { Newsletter } from '@/components/Newsletter'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
+import { FAQ } from '@/components/FAQ'
 
 export default function Home() {
   return (
@@ -24,6 +24,7 @@ export default function Home() {
         <Speakers />
         <Schedule />
         <Sponsors />
+        <FAQ />
       </main>
       <Footer />
     </>
