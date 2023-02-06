@@ -98,7 +98,7 @@ export function Speakers() {
             DJs
           </h2>
           <p className="mt-4 text-2xl tracking-tight text-blue-900 font-display">
-            Listen to music played by friends that know what they&apos;re doing.
+            Listen to music played by friends that know what they&apos;re doing in a private bar that will serve you drinks all night.
           </p>
         </div>
         <Tab.Group

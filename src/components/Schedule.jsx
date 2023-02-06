@@ -8,152 +8,60 @@ import backgroundImage from '@/images/background.jpg'
 
 const schedule = [
   {
-    date: 'April 4',
-    dateTime: '2022-04-04',
+    date: 'March 10',
+    dateTime: '2023-03-10',
     summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
+      'The real question is: why don\'t we start earlier?',
     timeSlots: [
       {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Friday Beer',
+        description: 'For OneFootballers at OF office',
+        start: '18:00',
+        end: '19:30',
       },
       {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Dinner',
+        description: 'We order pizzas at OF office',
+        start: '19:30',
+        end: '21:30',
       },
       {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
+        name: 'Go to 131 BAR',
+        description: 'Bicycle, Bus, Tram, Hitchiking',
+        start: '21:30',
+        end: '22:00',
       },
       {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
+        name: 'Party',
+        description: 'The club is ours',
+        start: '22:00',
+        end: '04:00',
       },
     ],
   },
   {
-    date: 'April 5',
-    dateTime: '2022-04-05',
+    date: 'March 11',
+    dateTime: '2023-03-11',
     summary:
-      'Next we spend the day talking about deceiving people with technology.',
+      'Is it still',
     timeSlots: [
       {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
+        name: 'Party',
+        description: 'The club is ours',
+        start: '00:00',
+        end: '04:00',
       },
       {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
+        name: 'Gemüse Kebab',
+        description: 'We refuel, we deserved it',
+        start: '04:00',
+        end: '04:15',
       },
       {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
-    ],
-  },
-  {
-    date: 'April 6',
-    dateTime: '2022-04-06',
-    summary:
-      'We close out the event previewing new techniques that are still in development.',
-    timeSlots: [
-      {
-        name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Heather Terry',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
-        end: '4:00PM',
+        name: 'Coma',
+        description: 'That was fun',
+        start: '04:15',
+        end: '22:00',
       },
     ],
   },
@@ -180,10 +88,10 @@ function ScheduleTabbed() {
   return (
     <Tab.Group
       as="div"
-      className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
+      className="grid max-w-2xl grid-cols-1 mx-auto gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
-      <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
+      <Tab.List className="flex pb-4 pl-4 -mx-4 overflow-x-auto gap-x-4 gap-y-10 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
         {({ selectedIndex }) =>
           schedule.map((day, dayIndex) => (
             <div
@@ -250,7 +158,7 @@ function TimeSlots({ day, className }) {
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
           {timeSlotIndex > 0 && (
-            <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
+            <div className="w-48 h-px mx-auto mb-8 bg-indigo-500/10" />
           )}
           <h4 className="text-lg font-semibold tracking-tight text-blue-900">
             {timeSlot.name}
@@ -268,7 +176,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            CET
           </p>
         </li>
       ))}
@@ -293,20 +201,18 @@ export function Schedule() {
   return (
     <section id="schedule" aria-label="Schedule" className="py-20 sm:py-32">
       <Container className="relative z-10">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-display text-4xl font-medium tracking-tighter text-blue-600 sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+        <div className="max-w-2xl mx-auto lg:mx-0 lg:max-w-4xl lg:pr-24">
+          <h2 className="text-4xl font-medium tracking-tighter text-blue-600 font-display sm:text-5xl">
+            Our schedule is jam-packed with a bit of everything for everyone.
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-blue-900">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+          <p className="mt-4 text-2xl tracking-tight text-blue-900 font-display">
+            Whether you&apos;re in town for the weekend ready to party, or family wo.man that needs to go home to baby,
+            I hope you&apos;ll find something to your liking in the schedule and will take the chance to say goodbye.
           </p>
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
-        <div className="absolute inset-x-0 -top-40 -bottom-32 overflow-hidden bg-indigo-50">
+        <div className="absolute inset-x-0 overflow-hidden -top-40 -bottom-32 bg-indigo-50">
           <Image
             className="absolute left-full top-0 -translate-x-1/2 sm:left-1/2 sm:translate-y-[-15%] sm:translate-x-[-20%] md:translate-x-0 lg:translate-x-[5%] lg:translate-y-[4%] xl:translate-y-[-8%] xl:translate-x-[27%]"
             src={backgroundImage}
