@@ -61,7 +61,7 @@ export function Hero() {
           <dl className="grid grid-cols-2 mt-10 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['DJs', '5'],
-              ['People Attending', '52'],
+              ['People Attending', '74'],
               ['Venue', '131 BAR', 'https://goo.gl/maps/zk6bvK3ivQZSWu596'],
               ['Location', 'Berlin'],
             ].map(([name, value, href]) => (
