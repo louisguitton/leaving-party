@@ -5,27 +5,27 @@ import { Container } from './Container'
 
 const faqs = [
   {
-    question: "Is this a private bar?",
+    question: 'Is this a private bar?',
     answer:
-      "131 Bar is a Historic Altbau in Berlin Mitte. I have booked the bar for us. People on the guest list can enter. The bar will serve us as long as we party.",
+      '131 Bar is a Historic Altbau in Berlin Mitte. I have booked the bar for us. People on the guest list can enter. The bar will serve us as long as we party.',
   },
   {
-    question: "Who are the DJs?",
+    question: 'Who are the DJs?',
     answer:
-      "Although the goal is to see each other, I also want to party with you. This is where the DJs come in. They are friends or friends of friends. If you want to DJ, hit me up.",
+      'Although the goal is to see each other, I also want to party with you. This is where the DJs come in. They are friends or friends of friends. If you want to DJ, hit me up.',
   },
   {
-    question: "Can I bring a +1 at the bar?",
+    question: 'Can I bring a +1 at the bar?',
     answer:
-      "Yes you can, as long as at least 1 person in the party is on the guest list.",
+      'Yes you can, as long as at least 1 person in the party is on the guest list.',
   },
   {
-    question: "I am an old OneFootballer, can I come to the Friday Beer?",
+    question: 'I am an old OneFootballer, can I come to the Friday Beer?',
     answer:
       "Unfortunately not. But don't worry, there's no 5th floor anymore. We see each other at the bar directly.",
   },
   {
-    question: "How many people are attending?",
+    question: 'How many people are attending?',
     answer:
       "Hard to tell. The initial guest list was made of 126 OneFootballers. It then grew to additional friends and ex-OneFootballers. We'll see who turns up.",
   },
@@ -51,12 +51,12 @@ export function FAQ() {
                         </span>
                         <span className="flex items-center ml-6 h-7">
                           {open ? (
-                            <PlusSmallIcon
+                            <MinusSmallIcon
                               className="w-6 h-6"
                               aria-hidden="true"
                             />
                           ) : (
-                            <MinusSmallIcon
+                            <PlusSmallIcon
                               className="w-6 h-6"
                               aria-hidden="true"
                             />
@@ -75,7 +75,7 @@ export function FAQ() {
             ))}
           </dl>
         </div>
-        </Container>
+      </Container>
     </section>
   )
 }
